@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Lato:wght@400;700;900&display=swap');
+
+
+:root{
+  --primary:rgb(255, 217, 0);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.bg__home{
+  background-image: linear-gradient(rgba(24, 23, 23, 0.596),rgba(48, 47, 47, 0.719)),url('./assets/bg1.jpg');
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+
+}
+
+.bg__home h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+}
+
+
+.navLogo{
+  width: 50px;
+}
+
+
+.login__formWrapper{
+  margin-top: 10%;
+}
+
+.userProfileIcon{
+  width: 30px;
+}
+
+
+
+
+.menu__page{
+  padding: 2rem;
+  margin-top: 100px;
+}
+
+.menu__page h1{
+  text-align: center;
+}
+
+
+
+.contact__card__wrapper i{
+    font-size: 3rem;
+}
+
+.payment__page{
+  margin-top: 100px;
+  padding: 2rem;
+}
+
+.about__wrapper{
+  padding: 2rem;
+  min-height: 100vh;
+  margin-top: 100px;
+}

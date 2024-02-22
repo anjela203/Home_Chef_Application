@@ -1,0 +1,85 @@
+
+
+.dashboard__section{
+    display: flex;
+    margin-top: 100px;
+    }
+    
+    .dashboard__section h3{
+        font-family: 'Dancing Script', cursive;
+       
+    }
+    .dashboard__section .nav .active{
+        background-color: var(--darkPrimary);
+    }
+    
+    .dashboard__menu{
+        width: 20%;
+        margin-top: -25px;
+        min-height: 100vh;
+    }
+
+    .dashboard__menu .nav-link:hover:not(.activeLink){
+        background-color: rgb(24, 24, 24);
+    }
+
+    .dashboard__menu .activeLink{
+        background-color: var(--primary);
+        color: black !important;
+    }
+    
+    .dashboard__content{
+        width: 70%;
+        margin-left: 2rem;
+    }
+    
+    .dashboard__expand {
+        margin-left: 10px;
+    }
+    
+    .hideDashboard{
+        width: 0px;
+        transform: translateX(-500px);
+    }
+    
+    .dashboard__expand i{
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+  .profile__form{
+    margin-top: 2rem;
+  } 
+  
+  .cardBgImg{
+    width: 100%;
+  }
+
+  .menuList .card:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+  }
+
+    
+@media screen and (max-width:900px) {
+    .dashboard__menu{
+        width: 50%;
+    }
+    .dashboard__menu.hideDashboard{
+        width: 0px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .dashboard__menu{
+        width: 70%;
+    }
+
+    .dashboard__menu.hideDashboard{
+        width: 0px;
+    }
+
+   
+
+   
+}
